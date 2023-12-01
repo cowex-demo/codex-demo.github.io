@@ -1,1 +1,67 @@
-site_name: PSOIO Network
+site_name: Cowex Fintech Demo
+site_url: https://demo.cowex.io/
+site_dir: public
+
+# plugins: []
+
+theme:
+  name: material
+  favicon: assets/images/favicon.ico
+  logo: images/logo-demo.png
+  locale: en
+  
+  icon:
+    repo: fontawesome/brands/git
+  
+  features:
+    - content.tabs.link
+
+  palette:
+    primary: yellow #indigo
+  
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest  
+    - toc.integrate
+    - content.tabs.link
+
+  font:
+    text: Roboto
+extra_css:
+  - css/header.css
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - toc:
+      toc_depth: 2-3
+      permalink: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+
+nav:
+  - Home: ./index.md
+  - Solution:
+    - Functional Requirements: ./solution/functional.md
+    - Technical Requirements: ./solution/technic.md
+  - Architecture:
+    - Environment: ./architecture/environment.md
+    - Solution: ./architecture/solution.md
+    - Software: ./architecture/software.md
+  - Development:
+    - Agile Method: ./dev/agile.md
+    - Repositories: ./dev/repositories.md
+    - Team: ./dev/team.md
+
