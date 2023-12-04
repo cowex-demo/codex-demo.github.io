@@ -5,7 +5,7 @@
 
 ```mermaid
 C4Context
-    Enterprise_Boundary(b0, "Cowex Fintech Demo") {
+    Enterprise_Boundary(enterprise, "Cowex Fintech Demo") {
         System_Ext(login, "Authentication", "Sistem used to authenticate and authorize users")
         System(fintech, "Fintech System", "A fintech operation system example ")
         System_Ext(email, "E-mail System", "The external e-mail service")
