@@ -2,7 +2,20 @@ site_name: Cowex Fintech Demo
 site_url: https://demo.cowex.io/
 site_dir: public
 
-# plugins: []
+plugins:
+  - search
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+      # version: '9.4.3' # only works with version < 10
+      # arguments:
+      #   theme: 'base'
+      #   themeVariables:
+      #     primaryColor: '#BB2528'
+      #     primaryTextColor: '#fff'
+      #     primaryBorderColor: '#7C0000'
+      #     lineColor: '#F8B229'
+      #     secondaryColor: '#006100'
+      #     tertiaryColor: '#fff'
 
 theme:
   name: material
@@ -32,8 +45,10 @@ theme:
 
   font:
     text: Roboto
+
 extra_css:
   - css/header.css
+  - css/mindmap.css
 
 markdown_extensions:
   - attr_list
@@ -45,10 +60,17 @@ markdown_extensions:
       toc_depth: 2-3
       permalink: true
   - pymdownx.superfences:
+        # make exceptions to highlighting of code:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
+          format: !!python/name:mermaid2.fence_mermaid_custom
+
+  # - pymdownx.superfences:
+  #     custom_fences:
+  #       - name: mermaid
+  #         class: mermaid
+  #         format: !!python/name:pymdownx.superfences.fence_code_format
 
 
 nav:
