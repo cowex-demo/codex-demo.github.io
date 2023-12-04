@@ -28,4 +28,9 @@ mindmap
           APP
           Web
           API 
+        (Insight)
+          Machine Learn
+          BAM
+          BI
+
 ```
