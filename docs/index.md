@@ -11,6 +11,8 @@ Take some time to read and understand the context of the project and its thresho
 
 ## Overview
 
+Presented below, in the form of a mind map, is our conception of a core platform for operating a fintech in the initial phase.
+
 ```mermaid
 %%{ init: {'theme': 'base'} }%%
 %%{ init:{'themeCSS':'path { fill: #ffee57 !important; stroke: #b8a500; }; rect { fill: #ffee57 !important; stroke: #b8a500; }; .edge { stroke: #ffee57  !important; }; line { stroke: #b8a500  !important; }; '} }%%
