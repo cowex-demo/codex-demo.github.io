@@ -6,9 +6,7 @@ As this project is non-profit, we chose to release it under the [GNU Affero Gene
 !!! danger "Alert"
     It's worth remembering that this is not a complete fintech project and is not ready for production, so if you want to use it in your company, contact someone from [Our Team](../dev/team.md) and they will be able to help you with this.
 
-## Project Organization
-
-There is four points where we put the objective, description, and management. 
+Regarding the organization of the project and its requirements, there are four points in this documentation that can be consulted:
 
 * __Home Page:__ The [Home](../index.md) page contains an overview about the business environment and the mental conception of that;
 * __Functional Requirements:__ The [Functional Requirements](./functional.md) page contains the detailed description of the project requirementes in a functional layer; 
