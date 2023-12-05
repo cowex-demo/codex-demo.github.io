@@ -80,4 +80,5 @@ nav:
     - Agile Method: ./dev/agile.md
     - Repositories: ./dev/repositories.md
     - Team: ./dev/team.md
+  - License: ./license.md
 
