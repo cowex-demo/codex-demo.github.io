@@ -1,0 +1,28 @@
+
+th {
+    color: black;
+    background-color: #ffee57;
+}
+
+td {
+    border-top-color: #b8a500 !important;
+}
+
+table tr:nth-child(even){
+    background-color: lightyellow;
+}
+
+table tr td:nth-child(1) {  
+    font-weight: bold;
+    color: #000000de;
+}
+
+/* table tr:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+} */
+
+table tr:nth-of-type(even):hover { background-color: black; }
+
+table {
+    border-color: #b8a500 !important;
+}

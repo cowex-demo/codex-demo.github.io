@@ -48,6 +48,7 @@ theme:
 
 extra_css:
   - css/header.css
+  - css/table.css
 
 markdown_extensions:
   - attr_list
