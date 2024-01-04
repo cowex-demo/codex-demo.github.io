@@ -69,8 +69,8 @@ Regarding the organization of the project and its requirements, there are five p
     * __Limitations:__ The [Limitations](./solution/limitations.md) page is a very important part of the project management. It describes the project limitation and other points that will not be regarded or developed in any way.  
 * __Architecture:__ 
     * __Environment:__ The [Environment](./architecture/environment.md) page contains the detailed description of the environment and their nuances.
-    * __Solution:__ The [Solution](./architecture/solution.md) page define the solution using the first three levels of [C4 Model](https://c4model.com/) architecture model.
-    * __Software:__ The [Software](./architecture/software.md) page contains the fourth level of [C4 Model](https://c4model.com/) architecture model, where we detail the software in the deep way.
+    * __Solution:__ The [Solution](./architecture/solution.md) page define the solution using the first two levels of [C4 Model](https://c4model.com/) architecture model.
+    * __Software:__ The [Software](./architecture/software.md) page contains the third level of [C4 Model](https://c4model.com/) architecture model. The fourth level will be documented inside the code.
 * __Development:__ 
     * __Agile Method:__ The [Agile Method](./dev/agile.md) page contains the development method description;
     * __Repositories:__ The [Repositories](./dev/repositories.md) page list all repositories used to develop this project;
