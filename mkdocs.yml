@@ -54,17 +54,18 @@ markdown_extensions:
   - attr_list
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.tabbed
   - toc:
       toc_depth: 2-3
       permalink: true
   - pymdownx.superfences:
+      preserve_tabs: true
         # make exceptions to highlighting of code:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:mermaid2.fence_mermaid_custom
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - Home: ./index.md
