@@ -70,7 +70,6 @@ markdown_extensions:
 nav:
   - Home: ./index.md
   - Solution:
-    - About: ./solution/about.md
     - Functional Requirements: ./solution/functional.md
     - Technical Requirements: ./solution/technic.md
     - Limitations: ./solution/limitations.md

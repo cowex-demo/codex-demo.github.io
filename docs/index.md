@@ -51,11 +51,33 @@ Finally, we have the Interoperability duo, which is made up of User Interface an
 
 You can find more information about this solution in [Solutions](./solution/about.md) and [Architecture](./architecture/solution.md). Take the time to read these modules in detail, it may make difference when using part of this code or even designing something similar.
 
-## License
+## The Project
 
-This program is free software: you can redistribute it and/or modify it under the terms of the [GNU Affero General Public License](./license.md) as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+The fintech project was chosen due to its complexity involving high security, performance, guaranteed delivery and sequence of operations; which helps to demonstrate the full technical and management capacity of the group developing the project.
 
-This program is distributed in the hope that it will be useful, but __WITHOUT ANY WARRANTY__; without even the implied warranty of __MERCHANTABILITY__ or __FITNESS FOR A PARTICULAR PURPOSE__.  See the [GNU Affero General Public License](./license.md) for more details.
+As this project is non-profit, we chose to release it under the [GNU Affero General Public License](../license.md), which guarantees that any modifications made must be released under the same license, guaranteeing continuous improvement of the system.
 
-You should have received a copy of the GNU Affero General Public License
-along with this program.  If not, see <[https://www.gnu.org/licenses/agpl-3.0](https://www.gnu.org/licenses/agpl-3.0.en.html)>.
+!!! danger "Alert"
+    It's worth remembering that this is not a complete fintech project and is not ready for production, so if you want to use it in your company, contact someone from [Our Team](../dev/team.md) and they will be able to help you with this.
+
+Regarding the organization of the project and its requirements, there are five points in this documentation that can be consulted:
+
+* __Home Page:__ The [Home](../index.md) page contains an overview about the business environment and the mental conception of that;
+* __Solution:__ 
+    *  __Functional Requirements:__ The [Functional Requirements](./solution/functional.md) page contains the detailed description of the project requirementes in a functional layer; 
+    * __Technical Requirements:__ The [Technical Requirements](./solution/technic.md) page contains the detailed description of the project requirementes in a technical layer;
+    * __Limitations:__ The [Limitations](./solution/limitations.md) page is a very important part of the project management. It describes the project limitation and other points that will not be regarded or developed in any way.  
+* __Architecture:__ 
+    * __Environment:__ The [Environment](./architecture/environment.md) page contains the detailed description of the environment and their nuances.
+    * __Solution:__ The [Solution](./architecture/solution.md) page define the solution using the first three levels of [C4 Model](https://c4model.com/) architecture model.
+    * __Software:__ The [Software](./architecture/software.md) page contains the fourth level of [C4 Model](https://c4model.com/) architecture model, where we detail the software in the deep way.
+* __Development:__ 
+    * __Agile Method:__ The [Agile Method](./dev/agile.md) page contains the development method description;
+    * __Repositories:__ The [Repositories](./dev/repositories.md) page list all repositories used to develop this project;
+    * __Team:__ The [Team](./dev/team.md) page contains the team presentation and their member.
+* __License:__ The [License](./license.md) page contains a copy of the __GNU Affero General Public License__.
+
+<br>
+
+!!! quote "Backlog Management"
+    The backlog management is not documented on this page. We use a tool to it organize!
