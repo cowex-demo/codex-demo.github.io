@@ -46,6 +46,11 @@ theme:
   font:
     text: Roboto
 
+extra:
+  analytics:
+    provider: google
+    property: G-8WN8SNEHFB
+
 extra_css:
   - css/header.css
   - css/table.css
