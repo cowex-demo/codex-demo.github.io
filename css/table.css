@@ -1,0 +1,38 @@
+
+th {
+    color: black;
+    background-color: #ffee57;
+}
+
+td {
+    border-top-color: #b8a500 !important;
+}
+
+table tr:nth-child(even){
+    background-color: lightyellow;
+}
+
+table tr td:nth-child(1) {  
+    font-weight: bold;
+    color: #000000de;
+    vertical-align: middle !important;
+}
+
+table tr td:nth-child(2) {  
+    font-style: italic;
+    vertical-align: middle !important;
+}
+
+table tr td:nth-child(3) {  
+    vertical-align: middle !important;
+}
+
+/* table tr:hover {
+    background-color: rgba(0, 0, 0, 0.7) !important;
+} */
+
+table tr:nth-of-type(even):hover { background-color: rgb(252, 252, 157) !important; }
+
+table {
+    border-color: #b8a500 !important;
+}

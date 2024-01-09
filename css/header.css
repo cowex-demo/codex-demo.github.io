@@ -1,0 +1,47 @@
+.md-grid {
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 95%;
+}
+
+.md-tabs__link {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    display: block;
+    font-size: .7rem;
+    margin-top: 0.1px;
+    opacity: .7;
+    outline-color: var(--md-accent-fg-color);
+    outline-offset: 0.2rem;
+    transition: transform .4s cubic-bezier(.1,.7,.1,1),opacity .25s;
+}
+
+.md-tabs__item {
+    display: inline-block;
+    height: 1.4rem;
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+}
+
+.md-typeset .quote>.admonition-title, .md-typeset .quote>summary {
+    background-color: #ffec3C3F;
+}
+
+.md-typeset .admonition.quote, .md-typeset details.quote {
+    border-color: #ffec3C;
+}
+
+html .md-typeset .admonition>:last-child, html .md-typeset details>:last-child {
+    margin-bottom: 0.6rem;
+    font-style: italic;
+}   
+
+.md-typeset .quote>.admonition-title:before, .md-typeset .quote>summary:before {
+    background-color: black;
+    -webkit-mask-image: var(--md-admonition-icon--quote);
+    mask-image: var(--md-admonition-icon--quote);
+}
+
+strong {
+    color: #B8A500;
+}
