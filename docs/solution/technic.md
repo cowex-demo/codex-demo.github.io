@@ -7,9 +7,9 @@
     | 2 | Architecture | The system must support multiple instances of their microservices |
     | 3 | Architecture | The system modules must comunicate themselves through STREAM service |
     | 4 | Architecture | The system must have a Mutual Exclusion Lock (MUTEX) supporting distributed locks |
-    | 5 | Performance | The system must support more then one milion request per second |
-    | 6 | Performance | The system must support more then a hundred milions wallets |
-    | 7 | Performance | No transaction can take more the 650ms to execute |
+    | 5 | Performance | The system must support more then 50 thousand request per second |
+    | 6 | Performance | The system must support more then one milion wallets |
+    | 7 | Performance | No transaction can take more the 500ms to execute |
     | 8 | Wallet | The wallet must to use a distributed mutex to guarantee the unitary execution of operations for each one. It is important to highlight that unitary execution must be per wallet, so it allows two different wallet to be operated at the same time |
     | 9 | Wallet | All transaction in the wallet must be executed synchronously at the user point of view. So for each request the user will receive the final response |
     | 10 | Wallet | As MUTEX will be implemented to grant the unitary and synchronously transacional execution, the sequentiality must be desconsidered |
